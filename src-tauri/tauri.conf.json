@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "kiwi",
-    "version": "0.0.0"
+    "version": "0.0.1"
   },
   "tauri": {
     "allowlist": {
@@ -16,6 +16,9 @@
       "shell": {
         "all": false,
         "open": true
+      },
+      "window": {
+        "all": true
       }
     },
     "bundle": {
@@ -63,7 +66,9 @@
         "height": 600,
         "resizable": true,
         "title": "kiwi",
-        "width": 800
+        "width": 800,
+        "decorations": false,
+        "transparent": true
       }
     ]
   }

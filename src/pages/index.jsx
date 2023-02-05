@@ -13,11 +13,9 @@ function App() {
     // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
     setGreetMsg(await invoke("greet", { name }));
   }
-
   return (
-    <div className="container">
+    <div className="m-0 flex-col justify-center text-center bg-slate-100 rounded-b-xl">
       <h1>Welcome to Tauri!</h1>
-
       <div className="row">
         <span className="logos">
           <a href="https://nextjs.org" target="_blank">
